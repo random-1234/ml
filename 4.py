@@ -1,6 +1,6 @@
 import csv
 def find_s(training_data):
-    hypothesis=[]
+    
     hypothesis = training_data[0][:-1]
     for example in training_data:
         features = example[:-1]
